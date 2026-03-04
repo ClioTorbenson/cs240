@@ -14,7 +14,7 @@ CREATE TABLE tree (
 	functional_type VARCHAR(100) NOT NULL,
 	diameter DECIMAL(2, 1) NOT NULL,
 	tree_condition CHAR(10) NOT NULL,
-	date_inventoried DATETIME NOT NULL,
+	date_inventoried DATE NOT NULL,
 	PRIMARY KEY (tree_id)
 );
 
